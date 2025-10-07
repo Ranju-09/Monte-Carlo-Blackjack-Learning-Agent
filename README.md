@@ -70,8 +70,6 @@ Monte Carlo control with Q-value updates:
 
 $$ Q(s, a) \leftarrow Q(s, a) + \alpha (G - Q(s, a)) $$
 
-Where $$ G = \sum_{t=0}^{T} \gamma^t R_{t+1} $$
-
 ## References
 
 - Thorp, Edward O. "Beat the Dealer" (1966)
